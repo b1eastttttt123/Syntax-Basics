@@ -1,0 +1,10 @@
+"""
+A program that calculates the sum of two numbers entered by the user.
+"""
+
+number_user1 = int(input("Enter a first number: "))
+number_user2 = int(input("Enter a second number: "))
+
+sum_numbers = number_user1 + number_user2
+
+print("Sum:", number_user1, "+", number_user2, "=", sum_numbers)
