@@ -1,0 +1,7 @@
+"""
+A program that prompts for a user's name and displays a greeting with their name.
+"""
+
+name = input("What's your name?\nEnter here-> ")
+
+print("Ohhhh, Hello,", name)
