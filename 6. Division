@@ -1,0 +1,13 @@
+"""
+A program that divides one number by another and handles possible division by zero.
+"""
+
+number_user1 = float(input("Enter a first number: "))
+number_user2 = float(input("Enter a second number: "))
+
+try:
+    result = number_user1 // number_user2
+except ZeroDivisionError:
+    result = "Error"
+
+print("Result:", number_user1, "/", number_user2, "=", result)
