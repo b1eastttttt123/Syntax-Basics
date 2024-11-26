@@ -1,0 +1,9 @@
+"""
+A program that swaps two numbers entered by the user.
+"""
+
+one_number = int(input("Enter a first number:"))
+two_number = int(input("Enter a second number:"))
+
+print(two_number, one_number)
+
