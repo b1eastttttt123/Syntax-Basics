@@ -1,0 +1,10 @@
+"""
+A program that calculates the remainder when two numbers are divided.
+"""
+
+number_user1 = int(input("Enter a first number: "))
+number_user2 = int(input("Enter a second number: "))
+
+result = number_user1 % number_user2
+
+print("Result:", number_user1, "%", number_user2, "=", result)
