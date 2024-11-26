@@ -1,0 +1,12 @@
+"""
+A program that finds at least four numbers entered by the user.
+"""
+import math
+
+numbers = []
+
+for num in range(4):
+    welcome = int(input("Enter a new number: "))
+    numbers.append(welcome)
+
+print("Minimum number:", min(numbers))
